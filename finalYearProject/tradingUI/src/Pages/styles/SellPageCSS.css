@@ -1,0 +1,44 @@
+.sell-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+
+.price-card {
+    margin-bottom: 20px; 
+}
+
+
+.chart_box {
+    background-color: rgb(49, 49, 49);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.charter {
+    height: 70vh;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.time_buttons_container {
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.time_button{
+    margin-right: 5px;
+}

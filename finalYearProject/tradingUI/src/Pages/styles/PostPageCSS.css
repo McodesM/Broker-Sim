@@ -1,0 +1,66 @@
+.forum-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-item {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.post-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-creator {
+    font-weight: bold;
+}
+
+.post-message {
+    margin-top: 10px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px; 
+    right: 20px; 
+}
+
+.like-dislike-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.like-dislike {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.like-dislike-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.like-count {
+    margin-left: 5px;
+    font-weight: bold;
+}

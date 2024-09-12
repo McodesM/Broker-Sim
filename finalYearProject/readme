@@ -1,0 +1,26 @@
+To run frontend:
+
+-cd to tradingUI, run npm install
+- run npm start
+
+To run backend:
+-install yfinance library,
+-install corsheaders
+- cd to tradingApp
+- run py manage.py makemigrations
+- run py manage.py migrate  
+- run py manage.py runserver
+
+To run backend tests:
+-python manage.py test 
+
+Current users are:
+- username: test, password: test
+- username: admin, password: admin /// note this is the only admin one
+- username: tester, password: tester
+- username: mohamoud, password: mohamoud
+- username: mike, password: mike
+- username: john, password: john
+
+Github repo:
+https://github.qmul.ac.uk/ec20389/finalYearProject

@@ -1,0 +1,15 @@
+.app-container {
+  background-image: url('./images/dark.jpg');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* Center the image horizontally and vertically */
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #333; /* Dark navbar background color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; /* Light text color for navbar links */
+}

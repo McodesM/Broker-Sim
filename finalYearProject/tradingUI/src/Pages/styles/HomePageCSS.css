@@ -1,0 +1,80 @@
+
+.search-bar {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px; 
+}
+
+
+.buy-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; 
+}
+.balance-card-container {
+  display: flex;
+  justify-content: flex-end; 
+}
+.balance-card{
+  width: 100%; 
+  max-width: 260px; 
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: rgb(199, 196, 196);
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #ffffff;
+}
+.balance-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; 
+}
+
+
+
+.chart_container {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.chart {
+  height: 120vh;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.chart_box {
+  background-color: rgb(49, 49, 49);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.charter {
+  height: 60vh;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.carder {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.card_title {
+  margin-bottom: 5px;
+  color: rgb(199, 196, 196);
+}
+
+.time_buttons_container {
+  display: flex; 
+  justify-content: flex-start;
+}
+.time_button{
+  margin-right: 5px;
+}
